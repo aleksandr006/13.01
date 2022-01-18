@@ -1,14 +1,14 @@
 from tkinter import *
 def lisa_nous():
     if var_nous.get()=="nous":
-        c.create_oval((225, 245, 275, 305),width=1, fill="black", outline="black") 
+        c.create_oval((200, 245, 270, 300),width=1, fill="black", outline="black") 
     elif var_nous.get()=="tühi":#нос
-        c.create_oval((225, 225, 275, 275),width=1, fill="black", outline="black") 
+        c.create_oval((200, 245, 270, 300),width=1, fill="black", outline="black") 
 def lisa_mounth():
     if var_mounth.get()=="mounth":
-        c.create_arc((100, 300, 400,400),start=150,extent=150, style=ARC, fill="black",width=10, outline="black")
+        c.create_arc((80, 400, 400,400),start=150,extent=180, style=ARC, fill="black",width=10, outline="black")
     elif var_mounth.get()=="tühi":
-        c.create_arc((100, 300, 400,400),start=150,extent=150, style=ARC,   fill="thistle",width=10, outline="thistle")
+        c.create_arc((80, 400, 400,400),start=150,extent=180, style=ARC,   fill="thistle",width=10, outline="thistle")
 def lisa_eyes():
     if var_eyes.get()=="eyes":
         c.create_oval((300, 100, 400, 200), fill="whitesmoke",width=3, outline="black") 
